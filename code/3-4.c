@@ -9,3 +9,4 @@ int main(){
   scanf("%d %d", &x, &y);
 
   printf("%d\n", *(**(p + x) + y));
+}
